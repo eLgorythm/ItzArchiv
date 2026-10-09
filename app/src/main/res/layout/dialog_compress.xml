@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compress"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/archive_name"
+            android:textColor="#A3A3A3"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtArchiveName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/archive_name_hint"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A3A3A3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtArchiveExt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text=".zip"
+            android:textColor="#737373"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/format"
+            android:textColor="#A3A3A3"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/spinnerFormatDialog"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_input" />
+
+        <CheckBox
+            android:id="@+id/checkHiddenDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/include_hidden"
+            android:textColor="#D4D4D4"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/password_optional"
+            android:textColor="#A3A3A3"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edtCompressPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_input"
+            android:hint="@string/password_empty_hint"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A3A3A3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtPasswordHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/password_supported"
+            android:textColor="#737373"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCompressCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:minHeight="36dp"
+                android:background="@drawable/bg_pill_dark"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCompressNext"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:minHeight="36dp"
+                android:background="@drawable/bg_pill_white"
+                android:text="@string/choose_location"
+                android:textAllCaps="false"
+                android:textColor="#111111"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

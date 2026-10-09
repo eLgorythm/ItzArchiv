@@ -1,0 +1,24 @@
+# --- Android / Gradle ---
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+
+# --- Build manual & release (output lokal) ---
+/build-manual/
+/build-release/
+/tools/
+
+# --- Signing: JANGAN PERNAH commit keystore ---
+*.keystore
+*.jks
+keystore.properties
+/release/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp

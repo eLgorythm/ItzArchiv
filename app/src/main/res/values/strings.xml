@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ItzArchiv</string>
+    <string name="app_title">📦 ItzArchiv</string>
+    <string name="app_tagline">Extract and compress archives. No fuss.</string>
+    <string name="about">About</string>
+
+    <string name="extract">Extract</string>
+    <string name="extract_formats">ZIP • 7Z • RAR • TAR • TAR.GZ • TAR.BZ2 • TAR.XZ • GZ • BZ2 • XZ</string>
+    <string name="select_archive_extract">Select Archive &amp; Extract</string>
+    <string name="compress">Compress</string>
+    <string name="compress_subtitle">Choose files or a folder, then set the format and password in the next step.</string>
+    <string name="select_files_compress">Select Files &amp; Compress</string>
+    <string name="select_folder_compress">Select Folder &amp; Compress (keep structure)</string>
+    <string name="nothing_selected">No files selected yet.</string>
+    <string name="ready_status">Ready. Choose extract or compress above.</string>
+    <string name="cancel">Cancel</string>
+    <string name="view_log">📋 View Log</string>
+    <string name="rar_note">Note: RAR can only be extracted, not created—the format is proprietary to WinRAR. Compression passwords are available for ZIP &amp; 7Z; TAR has no password standard.</string>
+
+    <string name="version_format">Version %1$s</string>
+    <string name="about_description">Extract and compress ZIP, 7Z, RAR, TAR, TAR.GZ, TAR.BZ2, and TAR.XZ. Supports folder compression with its structure preserved, plus password-protected ZIP and 7Z archives.</string>
+    <string name="github_repository">GitHub repository</string>
+    <string name="open_github">Open GitHub</string>
+    <string name="about_built_with">Built with Commons Compress, Zip4j, JunRAR, and XZ for Java.</string>
+    <string name="about_tap_outside">Tap an empty area outside the card to close.</string>
+    <string name="github_link_copied">GitHub link copied.</string>
+
+    <string name="extract_archive_title">Extract Archive</string>
+    <string name="archive_password_optional">Archive password (optional)</string>
+    <string name="password_not_needed">Leave this blank if the archive has no password.</string>
+    <string name="choose_folder_extract">Choose Folder &amp; Extract</string>
+
+    <string name="archive_name">Archive name</string>
+    <string name="archive_name_hint">archive-name</string>
+    <string name="default_archive_name">itzarchiv</string>
+    <string name="archive_extension_auto">Automatic extension: %1$s — no need to type it.</string>
+    <string name="format">Format</string>
+    <string name="include_hidden">Include hidden files/folders (names starting with .)</string>
+    <string name="password_optional">Password (optional)</string>
+    <string name="password_empty_hint">Leave blank for no password</string>
+    <string name="password_supported">Passwords are supported for ZIP (AES-256) &amp; 7Z. Leave blank if unused.</string>
+    <string name="password_tar_unsupported">TAR has no password standard — choose ZIP or 7Z for password protection.</string>
+    <string name="choose_location">Choose Location</string>
+
+    <string name="log_title">📋 Log</string>
+    <string name="ready_short">Ready.</string>
+
+    <string name="archive_selected">Archive selected: %1$s</string>
+    <string name="archive_password_destination_hint">Archive: %1$s\nEnter its password if it has one, then choose the destination folder.</string>
+    <string name="destination_not_selected">The destination folder was not selected.</string>
+    <string name="files_selected">%1$d files selected. Set the archive name and save location.\nThe save dialog starts in the parent folder of the first file.</string>
+    <string name="folder_selected">Folder selected: %1$s</string>
+    <string name="folder_selected_hint">Folder selected. Set the archive name and save location.\nThe save dialog starts outside this folder (in its parent), not inside it. Structure is preserved, and .trashed files are skipped.</string>
+    <string name="extract_cancelled_before_start">Extraction was cancelled before it started.</string>
+    <string name="compress_cancelled_before_start">Compression was cancelled before it started.</string>
+    <string name="cancelling_message">Cancelling… wait for the file currently in progress to finish.</string>
+    <string name="starting_extract">Starting extraction… please wait.</string>
+    <string name="starting_compress">Starting compression to %1$s… please wait.</string>
+    <string name="no_input_selected">No files or folder were selected.</string>
+
+    <string name="progress_known">%1$d%% • %2$d of %3$d files</string>
+    <string name="progress_unknown">… • %1$d files</string>
+    <string name="progress_zero">… • 0 files</string>
+    <string name="progress_line_known">%1$s %2$d of %3$d files (%4$d%%)\nLast: %5$s</string>
+    <string name="progress_line_unknown">%1$s %2$d files…\nLast: %3$s</string>
+    <string name="notification_progress_known">%1$d of %2$d files (%3$d%%)</string>
+    <string name="notification_progress_unknown">%1$d files…</string>
+
+    <string name="extract_label">Extract</string>
+    <string name="compress_label">Compress</string>
+    <string name="busy_message">Please wait, another process is still running.</string>
+    <string name="starting_label">Starting %1$s… please wait.</string>
+    <string name="notification_channel_name">ItzArchiv processes</string>
+    <string name="notification_channel_description">Archive extraction and compression in progress</string>
+    <string name="notification_working">ItzArchiv is working</string>
+    <string name="notification_preparing">Preparing…</string>
+    <string name="notification_cancelling">ItzArchiv is cancelling…</string>
+    <string name="notification_title">ItzArchiv — %1$s</string>
+    <string name="notification_finished_success">ItzArchiv finished ✅</string>
+    <string name="notification_finished">ItzArchiv finished</string>
+    <string name="success_extract">Done. Check your destination folder.</string>
+    <string name="success_compress">Done. The archive has been saved.</string>
+    <string name="cancelled_result">Cancelled. The partial result is incomplete, so delete it.</string>
+    <string name="cancelled_archive_deleted">Cancelled. The incomplete archive has been deleted.</string>
+    <string name="failed_message">Failed: %1$s</string>
+
+    <string name="cancelled_exception">Cancelled.</string>
+    <string name="archive_fallback_name">archive</string>
+    <string name="folder_fallback_name">folder</string>
+    <string name="copying_archive_temp">Copying the archive to a temporary workspace…</string>
+    <string name="cannot_open_archive">The archive could not be opened.</string>
+    <string name="collecting_folder">Collecting contents of folder “%1$s”%2$s…</string>
+    <string name="including_hidden_suffix"> (including hidden)</string>
+    <string name="skipped_trashed">Skipped %1$d .trashed trash files.</string>
+    <string name="skipped_hidden">Skipped %1$d hidden files/folders. Enable the option to include them.</string>
+    <string name="opening_archive">Opening “%1$s”…</string>
+    <string name="unknown_extension_detect">Unknown extension. Trying to detect its contents…</string>
+    <string name="extract_all_done">Done. All contents of “%1$s” have been extracted.</string>
+    <string name="files_extracted">%1$d files extracted.</string>
+    <string name="one_file_extracted">1 file extracted.</string>
+    <string name="extracted_file_fallback">extracted-file</string>
+    <string name="compressing_files">Compressing %1$d files to %2$s%3$s…</string>
+    <string name="with_password_suffix"> (with password)</string>
+    <string name="empty_folder">The folder is empty. There is nothing to compress.</string>
+    <string name="tar_password_engine_unsupported">TAR does not support passwords. Choose ZIP or 7Z.</string>
+    <string name="archive_created">Done. The archive has been created.</string>
+    <string name="output_inside_source">The output file is inside the source folder, so it was not included in the archive.</string>
+    <string name="cannot_write_output">Could not write to the archive location.</string>
+    <string name="file_size_changed">The size of “%1$s” changed while it was being read (%2$d vs %3$d). Try again.</string>
+    <string name="failed_create_folder">Failed to create folder: %1$s</string>
+    <string name="invalid_file_name">Invalid file name: %1$s</string>
+    <string name="failed_create_file">Failed to create file: %1$s</string>
+    <string name="failed_open_output_file">Failed to open the file for writing: %1$s</string>
+</resources>

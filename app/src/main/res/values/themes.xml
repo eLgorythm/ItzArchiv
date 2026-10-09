@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ItzArchiv" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#17171A</item>
+        <item name="android:statusBarColor">#17171A</item>
+        <item name="android:navigationBarColor">#17171A</item>
+        <item name="android:colorAccent">#FFFFFF</item>
+        <item name="android:textColorPrimary">#F5F5F5</item>
+        <item name="android:textColorSecondary">#A3A3A3</item>
+    </style>
+</resources>

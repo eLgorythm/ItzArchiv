@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ItzArchiv</string>
+    <string name="app_title">📦 ItzArchiv</string>
+    <string name="app_tagline">Ekstrak &amp; kompres semua arsip. Gak pake ribet.</string>
+    <string name="about">Tentang</string>
+
+    <string name="extract">Ekstrak</string>
+    <string name="extract_formats">ZIP • 7Z • RAR • TAR • TAR.GZ • TAR.BZ2 • TAR.XZ • GZ • BZ2 • XZ</string>
+    <string name="select_archive_extract">Pilih Arsip &amp; Ekstrak</string>
+    <string name="compress">Kompres</string>
+    <string name="compress_subtitle">Pilih file atau folder, atur format &amp; password di langkah berikutnya.</string>
+    <string name="select_files_compress">Pilih File &amp; Kompres</string>
+    <string name="select_folder_compress">Pilih Folder &amp; Kompres (struktur tetap)</string>
+    <string name="nothing_selected">Belum ada file dipilih, bocah.</string>
+    <string name="ready_status">Siap. Pilih ekstrak atau kompres di atas.</string>
+    <string name="cancel">Batalin</string>
+    <string name="view_log">📋 Lihat Log</string>
+    <string name="rar_note">Catatan: RAR cuma bisa diekstrak, gak bisa dibuat — formatnya terkunci WinRAR. Password kompres tersedia buat ZIP &amp; 7Z; TAR tidak punya standar password.</string>
+
+    <string name="version_format">Versi %1$s</string>
+    <string name="about_description">Ekstrak dan kompres ZIP, 7Z, RAR, TAR, TAR.GZ, TAR.BZ2, dan TAR.XZ. Mendukung kompres folder dengan struktur tetap serta ZIP dan 7Z berpassword.</string>
+    <string name="github_repository">Repository GitHub</string>
+    <string name="open_github">Buka GitHub</string>
+    <string name="about_built_with">Dibangun dengan Commons Compress, Zip4j, JunRAR, dan XZ for Java.</string>
+    <string name="about_tap_outside">Ketuk area kosong di luar card untuk menutup.</string>
+    <string name="github_link_copied">Tautan GitHub disalin.</string>
+
+    <string name="extract_archive_title">Ekstrak Arsip</string>
+    <string name="archive_password_optional">Password arsip (opsional)</string>
+    <string name="password_not_needed">Kosongin kalau arsipnya gak ber-password.</string>
+    <string name="choose_folder_extract">Pilih Folder &amp; Ekstrak</string>
+
+    <string name="archive_name">Nama arsip</string>
+    <string name="archive_name_hint">nama-arsip</string>
+    <string name="default_archive_name">arsip-itzarchiv</string>
+    <string name="archive_extension_auto">Ekstensi otomatis: %1$s — gak usah diketik.</string>
+    <string name="format">Format</string>
+    <string name="include_hidden">Sertakan file/folder tersembunyi (nama diawali .)</string>
+    <string name="password_optional">Password (opsional)</string>
+    <string name="password_empty_hint">Kosongin kalau gak pakai password</string>
+    <string name="password_supported">Password didukung buat ZIP (AES-256) &amp; 7Z. Kosongin kalau gak pakai.</string>
+    <string name="password_tar_unsupported">TAR tidak punya standar password — pilih ZIP atau 7Z kalau mau ber-password.</string>
+    <string name="choose_location">Pilih Lokasi</string>
+
+    <string name="log_title">📋 Log</string>
+    <string name="ready_short">Siap.</string>
+
+    <string name="archive_selected">Arsip dipilih: %1$s</string>
+    <string name="archive_password_destination_hint">Arsip: %1$s\nIsi password kalau ada, lalu pilih folder tujuannya.</string>
+    <string name="destination_not_selected">Folder tujuan gak jadi dipilih.</string>
+    <string name="files_selected">%1$d file dipilih. Tentuin nama &amp; lokasi hasil arsipnya.\nDialog simpan dibuka di folder induk file pertama.</string>
+    <string name="folder_selected">Folder dipilih: %1$s</string>
+    <string name="folder_selected_hint">Folder dipilih. Tentuin nama &amp; lokasi hasil arsipnya.\nDialog simpan dibuka di LUAR folder ini (folder induknya), bukan di dalamnya. Strukturnya bakal tetap, file .trashed dilewatin.</string>
+    <string name="extract_cancelled_before_start">Ekstrak dibatalin sebelum mulai.</string>
+    <string name="compress_cancelled_before_start">Kompres dibatalin sebelum mulai.</string>
+    <string name="cancelling_message">Ngebatalin... tunggu file yang lagi jalan selesai dulu.</string>
+    <string name="starting_extract">Mulai ekstrak... sabar.</string>
+    <string name="starting_compress">Mulai kompres jadi %1$s... sabar.</string>
+    <string name="no_input_selected">Gak ada file/folder yang dipilih.</string>
+
+    <string name="progress_known">%1$d%% • %2$d/%3$d file</string>
+    <string name="progress_unknown">... • %1$d file</string>
+    <string name="progress_zero">... • 0 file</string>
+    <string name="progress_line_known">%1$s %2$d/%3$d file (%4$d%%)\nTerakhir: %5$s</string>
+    <string name="progress_line_unknown">%1$s %2$d file...\nTerakhir: %3$s</string>
+    <string name="notification_progress_known">%1$d/%2$d file (%3$d%%)</string>
+    <string name="notification_progress_unknown">%1$d file...</string>
+
+    <string name="extract_label">Ekstrak</string>
+    <string name="compress_label">Kompres</string>
+    <string name="busy_message">Sabar, masih ada proses yang jalan.</string>
+    <string name="starting_label">Mulai %1$s... sabar.</string>
+    <string name="notification_channel_name">Proses ItzArchiv</string>
+    <string name="notification_channel_description">Ekstrak &amp; kompres yang lagi jalan</string>
+    <string name="notification_working">ItzArchiv lagi kerja</string>
+    <string name="notification_preparing">Nyiapin...</string>
+    <string name="notification_cancelling">ItzArchiv ngebatalin...</string>
+    <string name="notification_title">ItzArchiv — %1$s</string>
+    <string name="notification_finished_success">ItzArchiv beres ✅</string>
+    <string name="notification_finished">ItzArchiv selesai</string>
+    <string name="success_extract">Berhasil. Cek folder tujuanmu.</string>
+    <string name="success_compress">Berhasil. Arsipnya udah kesimpen.</string>
+    <string name="cancelled_result">Dibatalin. Hasil sebagian gak lengkap, hapus aja.</string>
+    <string name="cancelled_archive_deleted">Dibatalin. Arsip setengah jadinya udah dihapus.</string>
+    <string name="failed_message">Gagal: %1$s</string>
+
+    <string name="cancelled_exception">Dibatalin.</string>
+    <string name="archive_fallback_name">arsip</string>
+    <string name="folder_fallback_name">folder</string>
+    <string name="copying_archive_temp">Nyalin arsip ke tempat kerja sementara...</string>
+    <string name="cannot_open_archive">Arsipnya gak bisa dibuka.</string>
+    <string name="collecting_folder">Ngumpulin isi folder «%1$s»%2$s...</string>
+    <string name="including_hidden_suffix"> (+ tersembunyi)</string>
+    <string name="skipped_trashed">Lewatin %1$d file sampah (.trashed).</string>
+    <string name="skipped_hidden">Lewatin %1$d file/folder tersembunyi. Centang opsinya kalau mau disertakan.</string>
+    <string name="opening_archive">Buka «%1$s»...</string>
+    <string name="unknown_extension_detect">Ekstensi gak dikenal, nyoba nebak isinya...</string>
+    <string name="extract_all_done">Selesai. Semua isi «%1$s» udah diekstrak.</string>
+    <string name="files_extracted">%1$d file keluar.</string>
+    <string name="one_file_extracted">1 file keluar.</string>
+    <string name="extracted_file_fallback">hasil-ekstrak</string>
+    <string name="compressing_files">Kompres %1$d file jadi %2$s%3$s...</string>
+    <string name="with_password_suffix"> (ber-password)</string>
+    <string name="empty_folder">Foldernya kosong, bocah. Gak ada yang bisa dikompres.</string>
+    <string name="tar_password_engine_unsupported">TAR tidak mendukung password. Pilih ZIP atau 7Z.</string>
+    <string name="archive_created">Selesai. Arsipnya udah jadi.</string>
+    <string name="output_inside_source">File hasil ada di dalam folder sumber — dia gak ikut dikompres.</string>
+    <string name="cannot_write_output">Gak bisa nulis ke lokasi arsip.</string>
+    <string name="file_size_changed">Ukuran «%1$s» berubah pas dibaca (%2$d vs %3$d). Coba lagi.</string>
+    <string name="failed_create_folder">Gagal bikin folder: %1$s</string>
+    <string name="invalid_file_name">Nama file aneh: %1$s</string>
+    <string name="failed_create_file">Gagal bikin file: %1$s</string>
+    <string name="failed_open_output_file">Gagal buka file buat ditulis: %1$s</string>
+</resources>

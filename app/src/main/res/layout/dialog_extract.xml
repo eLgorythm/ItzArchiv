@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/extract_archive_title"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtExtractName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="arsip.zip"
+        android:textColor="#A3A3A3"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edtExtractPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_input"
+        android:hint="@string/archive_password_optional"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A3A3A3"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/password_not_needed"
+        android:textColor="#737373"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExtractCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:minHeight="36dp"
+            android:background="@drawable/bg_pill_dark"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnExtractNext"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:minHeight="36dp"
+            android:background="@drawable/bg_pill_white"
+            android:text="@string/choose_folder_extract"
+            android:textAllCaps="false"
+            android:textColor="#111111"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
