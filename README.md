@@ -54,14 +54,6 @@ Aplikasi tidak meminta izin storage luas. Akses file diberikan pengguna per file
 - TAR, TAR.GZ, TAR.BZ2, dan TAR.XZ tidak bisa diberi password.
 - Dialog pemilih file dan dialog simpan adalah milik Android/DocumentsUI; tampilannya dan backup/pemulihannya mengikuti sistem.
 
-## Perubahan v1.9 — rename ke ItzArchiv
-
-Nama aplikasi sekarang **ItzArchiv**. Package Android juga memakai identitas baru `me.fndlabs.itzarchiv`, jadi Android memperlakukannya sebagai aplikasi baru dan tidak menimpa instalasi versi sebelumnya. Repository dan seluruh dokumen kini memakai nama ItzArchiv.
-
-## Perubahan v1.8 — bahasa otomatis ID/EN
-
-Seluruh teks pengguna dipindahkan ke resource Android. Home, dialog Ekstrak, dialog Kompres, dialog About, popup Log, status proses, pesan error utama, dan notifikasi Foreground Service memakai bahasa sistem. Tidak ada tombol ganti bahasa manual.
-
 ## Build dari source
 
 Project ini dapat dibangun sebagai project Gradle standar di Android Studio, atau menggunakan script build manual yang disertakan:
