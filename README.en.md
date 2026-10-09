@@ -6,6 +6,10 @@ Repository: https://github.com/eLgorythm/ItzArchiv
 
 ItzArchiv is an Android app for extracting and compressing archives. It has a minimal dark interface, uses Android's built-in file/folder picker (SAF), and automatically follows the system language: Indonesian or English.
 
+<p align="center">
+  <img src="docs/images/home-mockup.png" alt="ItzArchiv home screen" width="320">
+</p>
+
 ## Supported formats
 
 **Extract:** ZIP, 7Z, RAR, TAR, TAR.GZ (`.tgz`), TAR.BZ2 (`.tbz2`), TAR.XZ (`.txz`), GZ, BZ2, and XZ.
